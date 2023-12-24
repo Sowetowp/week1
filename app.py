@@ -18,4 +18,4 @@ def get_random_even_number():
     return {'random_even_number': random_even_number}
 
 if __name__ == '__main__':
-    app.run(debug=False, host="0.0.0.0")
+    app.run(debug=False, host="3000")
