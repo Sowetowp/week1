@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 import random
-
+from werkzeug.utils import url_quote
 app = Flask(__name__)
 
 @app.route('/')
